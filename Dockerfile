@@ -7,6 +7,6 @@ COPY requirements.txt .
 RUN  pip install -r requirements.txt
 COPY . . 
 # this copies current directory code into current directory image i.e /app
-CMD ["flask", "run", "--host", "0.0.0.0"] 
+CMD ["python", "app.py"]
 # it allows external client to the countainter to make request to flask app in the containter
 
