@@ -2,3 +2,6 @@
 blocklist.py 
 docker-compose-debug.yml
 docker-compose.yml
+.venv/
+.env
+instance/
